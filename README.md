@@ -7,10 +7,10 @@ Frequency-domain GB TDI response, modified from GBGPU (https://github.com/mikeka
 2. install modified gbgpu:
 
 on linux:   
-0) cd GBGPU_numorbit
-1) conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython 
-2) to get GPU support, install cupy by pip: pip install cupy-cuda92 (replace 92 by your own cuda toolkit version)
-3) python setup.py install
+1) cd GBGPU_numorbit
+2) conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython 
+3) to get GPU support, install cupy by pip: pip install cupy-cuda92 (replace 92 by your own cuda toolkit version)
+4) python setup.py install
 
 on macos (arm chip):
 replace gcc_linux-64 gxx_linux-64 by clang_osx-arm64 clangxx_osx-arm64 
