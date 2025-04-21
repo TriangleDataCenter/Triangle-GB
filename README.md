@@ -1,5 +1,5 @@
 # Triangle-GB
-Frequency-domain GB TDI response, modified from GBGPU (https://github.com/mikekatz04/GBGPU) to support numerical orbits and 2nd-generation TDI.
+Frequency-domain GB TDI response, modified from GBGPU (https://github.com/mikekatz04/GBGPU) to support numerical orbits and TDI-2.0.
 
 # Installation 
 1. install triangle 
