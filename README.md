@@ -19,5 +19,5 @@ replace gcc_linux-64 gxx_linux-64 by clang_osx-arm64 clangxx_osx-arm64
 pip install eryn corner 
 
 # Comparison with time-domain simulation 
-![image](Figures/Triangle_vs_modified_GBGPU.png)
+![image](Figures/TD_vs_FD.jpg)
 
