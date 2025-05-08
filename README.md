@@ -10,10 +10,16 @@ The code also offers as an illustrative example for the preliminary analysis of 
 
 on linux:  
 ```sh
-  1) cd GBGPU_numorbit
-  2) conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython 
-  3) to get GPU support, install cupy by pip: pip install cupy-cuda92 (replace 92 by your own cuda toolkit version)
-  4) python setup.py install
+  cd GBGPU_numorbit
+  conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
+```
+to get GPU support, install cupy by pip (replace 92 by your own cuda toolkit version): 
+```sh
+  pip install cupy-cuda92
+```
+install package from source:
+```sh
+  python setup.py install
 ```
 
 on macos (arm chip):
