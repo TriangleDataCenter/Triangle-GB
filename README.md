@@ -8,30 +8,30 @@ The code also offers as an illustrative example for the preliminary analysis of 
 
 2. install modified gbgpu:
 
-on linux:  
-```sh
-  cd GBGPU_numorbit
-  conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
-```
-to get GPU support, install cupy by pip (replace 92 by your own cuda toolkit version): 
-```sh
-  pip install cupy-cuda92
-```
-install package from source:
-```sh
-  python setup.py install
-```
-
-on macos (arm chip):
-replace gcc_linux-64 gxx_linux-64 by 
-```sh
-  clang_osx-arm64 clangxx_osx-arm64
-```
+  on linux:  
+  ```sh
+    cd GBGPU_numorbit
+    conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
+  ```
+  to get GPU support, install cupy by pip (replace 92 by your own cuda toolkit version): 
+  ```sh
+    pip install cupy-cuda92
+  ```
+  install package from source:
+  ```sh
+    python setup.py install
+  ```
+  
+  on macos (arm chip):
+  replace gcc_linux-64 gxx_linux-64 by 
+  ```sh
+    clang_osx-arm64 clangxx_osx-arm64
+  ```
 
 3. install MCMC tools to run the tutorial:
-```sh
-  pip install eryn corner
-```
+  ```sh
+    pip install eryn corner
+  ```
 
 # Comparison with time-domain simulation 
 ![image](Figures/TD_vs_FD.jpg)
