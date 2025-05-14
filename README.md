@@ -1,7 +1,8 @@
 # Triangle-GB
 Frequency-domain GB TDI-2.0 response, modified from GBGPU (the GPU implementation of FastGB algorithm) to support the numerical orbit of Taiji and TDI-2.0. 
-The responses are consistent with the time-domain simulations of **Triangle-Simulator**. 
-The code also offers as an illustrative example for the preliminary analysis of **Taiji Data Challenge**, and should not be regarded as a solution to all the challenges.
+The responses are consistent with the time-domain simulations of **Triangle-Simulator** (see Example 0). 
+Also offered is an illustrative example (Example 1) for the preliminary analysis of **Taiji Data Challenge**, while it **should not** be regarded as a solution to all the challenges. 
+Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
 
 # Installation 
 1. install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) 
@@ -37,6 +38,8 @@ The code also offers as an illustrative example for the preliminary analysis of 
 ![image](Figures/TD_vs_FD.jpg)
 
 # References 
+(Please make sure to cite FastGB and GBGPU if Triangle-BBH is used in your published research).
+
 - Taiji Data Challenge \& Triangle: [the TDC \& Triangle paper](TBD)
 - The fast frequency-domain detector response of galactic binaries: [N. J. Cornish et al, Phys.Rev.D76:083006,2007](https://doi.org/10.1103/PhysRevD.76.083006)
 - GBGPU: [GBGPU documentations](https://mikekatz04.github.io/GBGPU/html/index.html)
