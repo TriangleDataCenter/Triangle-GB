@@ -5,6 +5,9 @@ Also offered is an illustrative example (Example 1) for the preliminary analysis
 Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
 
 # Installation 
+
+(Tested platform: Ubuntu22.04 (recommanded), MacOS15)
+
 1. **Install Triangle-Simulator**    
    install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) and activate the tri_env environment by
    ```sh 
@@ -38,6 +41,10 @@ Especially, only individual GBs are analyzed in the example, while for realistic
   install package from source (there is currently no GPU support on macos):    
    ```sh
    python setup.py install
+   ```
+   if failed, run: 
+   ```
+   pip install . 
    ```
 
 4. **Install MCMC Tools to Run the Tutorial**
