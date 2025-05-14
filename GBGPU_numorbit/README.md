@@ -24,7 +24,8 @@ conda activate gbgpu_env
     If on MACOSX, substitute `gcc_linux-64` and `gxx_linus-64` with `clang_osx-64` and `clangxx_osx-64`.
 
 
-conda create -n GB_NUM -c conda-forge clang_osx-arm64 clangxx_osx-arm64 gsl numpy Cython scipy jupyter ipython h5py matplotlib python=3.8
+**Namely, install on mac with**:
+conda create -n gbgpu_env -c conda-forge clang_osx-arm64 clangxx_osx-arm64 gsl numpy Cython scipy jupyter ipython h5py matplotlib python=3.8
 
 2) Clone the repository.
 
