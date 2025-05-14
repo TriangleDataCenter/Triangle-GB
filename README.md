@@ -5,10 +5,17 @@ Also offered is an illustrative example (Example 1) for the preliminary analysis
 Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
 
 # Installation 
-1. install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) 
-
-2. install modified gbgpu:
-
+1. **Install Triangle-Simulator**
+   install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) and activate the tri_env environment by
+   ```sh 
+   conda activate tri_env 
+   ```
+2. **Clone the Repository**
+   ```sh
+   git clone https://github.com/TriangleDataCenter/Triangle-GB
+   cd Triangle-GB
+   ```
+3. **Install Modified GBGPU**
   on linux:  
   ```sh
     cd GBGPU_numorbit
@@ -29,7 +36,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
     clang_osx-arm64 clangxx_osx-arm64
   ```
 
-3. install MCMC tools to run the tutorial:
+4. **Install MCMC Tools to Run the Tutorial**
   ```sh
     pip install eryn corner
   ```
