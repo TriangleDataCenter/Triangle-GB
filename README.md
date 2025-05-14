@@ -5,18 +5,18 @@ Also offered is an illustrative example (Example 1) for the preliminary analysis
 Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
 
 # Installation 
-1. **Install Triangle-Simulator**
+1. **Install Triangle-Simulator**    
    install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) and activate the tri_env environment by
    ```sh 
    conda activate tri_env 
    ```
-2. **Clone the Repository**
+2. **Clone the Repository**    
    ```sh
    git clone https://github.com/TriangleDataCenter/Triangle-GB
    cd Triangle-GB
    ```
-3. **Install Modified GBGPU**
-  on linux:  
+3. **Install Modified GBGPU**    
+  on linux:   
   ```sh
     cd GBGPU_numorbit
     conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
