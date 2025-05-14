@@ -21,7 +21,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
     cd GBGPU_numorbit
     conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
   ```
-  to get GPU support, install cupy by pip (replace 92 by your own cuda toolkit version): 
+  to get GPU support (optional), install cupy by pip (replace 92 by your own cuda toolkit version): 
   ```sh
     pip install cupy-cuda92
   ```
@@ -31,10 +31,11 @@ Especially, only individual GBs are analyzed in the example, while for realistic
   ```
   
 - on macos (arm chip):
-  replace gcc_linux-64 gxx_linux-64 by 
   ```sh
-    clang_osx-arm64 clangxx_osx-arm64
+    cd GBGPU_numorbit
+    conda install -c conda-forge clang_osx-arm64 clangxx_osx-arm64 gsl Cython
   ```
+  there is currently no GPU support on macos 
 
 4. **Install MCMC Tools to Run the Tutorial**
   ```sh
