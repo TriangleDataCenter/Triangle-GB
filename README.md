@@ -34,9 +34,8 @@ Especially, only individual GBs are analyzed in the example, while for realistic
   ```sh
     cd GBGPU_numorbit
     conda install -c conda-forge clang_osx-arm64 clangxx_osx-arm64 gsl Cython
-  ```
-  there is currently no GPU support on macos.    
-  install package from source:    
+  ```    
+  install package from source (there is currently no GPU support on macos):    
   ```sh
     python setup.py install
   ```
