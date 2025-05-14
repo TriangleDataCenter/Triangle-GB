@@ -16,7 +16,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
    cd Triangle-GB
    ```
 3. **Install Modified GBGPU**    
-  on linux:   
+- on linux:   
   ```sh
     cd GBGPU_numorbit
     conda install -c conda-forge gcc_linux-64 gxx_linux-64 gsl Cython
@@ -30,7 +30,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
     python setup.py install
   ```
   
-  on macos (arm chip):
+- on macos (arm chip):
   replace gcc_linux-64 gxx_linux-64 by 
   ```sh
     clang_osx-arm64 clangxx_osx-arm64
