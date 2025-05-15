@@ -18,7 +18,10 @@ Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that
    git clone https://github.com/TriangleDataCenter/Triangle-GB
    cd Triangle-GB
    ```
-3. **Install Modified GBGPU**    
+3. **Install Modified GBGPU**
+   
+   More instructions on the installation and use of ``GBGPU`` can be found in the [documentations](https://mikekatz04.github.io/GBGPU/html/index.html). 
+   
 - on **linux**:   
    ```sh
    cd GBGPU_numorbit
@@ -44,7 +47,6 @@ Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that
    ```
    pip install . 
    ```
-   (**Note** that the installation may fail on macos, persumably due to the settings for cross-compiling (?????))
 
 4. **Install MCMC Tools to Run the Tutorial**
    ```sh
