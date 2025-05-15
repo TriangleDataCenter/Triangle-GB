@@ -20,7 +20,7 @@ Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that
    ```
 3. **Install Modified GBGPU**
    
-   More instructions on the installation and use of ``GBGPU`` can be found in the [documentations](https://mikekatz04.github.io/GBGPU/html/index.html). 
+   More instructions on the installation, usage and troubleshooting of ``GBGPU`` can be found in the [documentations](https://mikekatz04.github.io/GBGPU/html/index.html). 
    
 - on **linux**:   
    ```sh
