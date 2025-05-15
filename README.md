@@ -6,7 +6,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
 
 # Installation 
 
-(Tested platform: Ubuntu22.04 (recommanded), MacOS15)
+(Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that installation will success on all the unix systems, even the aforementioned two.)
 
 1. **Install Triangle-Simulator**    
    install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) and activate the tri_env environment by
@@ -28,7 +28,8 @@ Especially, only individual GBs are analyzed in the example, while for realistic
    ```sh
    pip install cupy-cuda92
    ```
-   **Note** that this could be complicated if you do not have CUDA installed in your system. Please follow the official guide of cupy if any problem occurs.
+   (**Note** that this could be complicated if you do not have CUDA installed in your system. Please follow the official guide of cupy if any problem occurs.)
+  
   install package from source:
    ```sh
    python setup.py install
