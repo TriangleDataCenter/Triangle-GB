@@ -6,7 +6,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
 
 # Installation 
 
-(Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that installation will success on all the unix systems, even the aforementioned two.)
+Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that installation will success on all the unix systems, even the aforementioned two.
 
 1. **Install Triangle-Simulator**    
    install [Triangle-Simulator](https://github.com/TriangleDataCenter/Triangle-Simulator) and activate the tri_env environment by
@@ -41,13 +41,10 @@ Especially, only individual GBs are analyzed in the example, while for realistic
    conda install -c conda-forge clang_osx-arm64 clangxx_osx-arm64 gsl Cython
    ```    
   install package from source (there is currently no GPU support on macos):    
-   ```sh
-   python setup.py install
-   ```
-   if failed, run: 
    ```
    pip install . 
    ```
+   (**Note** that the installation may fail on macos, persumably due to the settings for cross-compiling (?????))
 
 4. **Install MCMC Tools to Run the Tutorial**
    ```sh
