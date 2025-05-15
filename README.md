@@ -1,7 +1,7 @@
 # Triangle-GB
 Frequency-domain GB TDI-2.0 response, adapted from GBGPU (the GPU implementation of FastGB algorithm) to support the numerical orbit of Taiji and TDI-2.0. 
 The responses are consistent with the time-domain simulations of **Triangle-Simulator** (see Example 0). 
-Also offered is an illustrative example (Example 1) for the preliminary analysis of **Taiji Data Challenge**, while it **should not** be regarded as a solution to all the challenges. 
+Also offered is an illustrative example (Example 1) for the preliminary analysis of **Taiji Data Challenge**, nevertheless, it **should not** be regarded as a solution to all the challenges. 
 Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
 
 # Installation 
