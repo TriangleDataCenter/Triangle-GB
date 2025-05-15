@@ -28,6 +28,7 @@ Especially, only individual GBs are analyzed in the example, while for realistic
    ```sh
    pip install cupy-cuda92
    ```
+   **Note** that this could be complicated if you do not have CUDA installed in your system. Please follow the official guide of cupy if any problem occurs.
   install package from source:
    ```sh
    python setup.py install
