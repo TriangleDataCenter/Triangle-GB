@@ -14,9 +14,8 @@ Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that
    ```sh 
    conda activate tri_env 
    ```
-2. **Clone the Repository**    
+2. **Download or Clone the Repository, then**    
    ```sh
-   git clone https://github.com/TriangleDataCenter/Triangle-GB
    cd Triangle-GB
    ```
 3. **Install Modified GBGPU**
