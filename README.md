@@ -2,8 +2,8 @@
 Frequency-domain GB TDI-2.0 response, adapted from GBGPU (the GPU implementation of FastGB algorithm) to support the numerical orbit of Taiji and TDI-2.0. 
 The responses are consistent with the time-domain simulations of **Triangle-Simulator** (see Example 0). 
 Also offered is an illustrative example (Example 1) for the preliminary analysis of **Taiji Data Challenge II**, nevertheless, it **should not** be regarded as a solution to all the challenges. 
-Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals. 
-The future version of GBGPU will also support TDI-2.0 response function for generic orbits. Interested users are encouraged to follow its [GitHub page](https://github.com/mikekatz04/GBGPU) for updates.
+Especially, only individual GBs are analyzed in the example, while for realistic data, the major challenge we face would be the overlap of numerous signals.     
+**Note** that the future version of GBGPU will also support TDI-2.0 response function for generic orbits. Interested users are encouraged to follow its [GitHub page](https://github.com/mikekatz04/GBGPU) for updates.
 
 # Installation 
 
