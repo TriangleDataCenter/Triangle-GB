@@ -59,7 +59,7 @@ Tested platforms: Ubuntu22.04 (recommanded), MacOS15. While we donot ensure that
 # References 
 Please make sure to cite FastGB and GBGPU if Triangle-GB is used in your published research.
 
-- Taiji Data Challenge II: [the TDC II paper](TBD), [the TDC II manual](TBD). 
+- Taiji Data Challenge II: [the TDC II paper](https://arxiv.org/abs/2505.16500). 
 - The fast frequency-domain detector response of galactic binaries: [N. J. Cornish et al, Phys.Rev.D76:083006,2007](https://doi.org/10.1103/PhysRevD.76.083006)
 - GBGPU: [GBGPU documentations](https://mikekatz04.github.io/GBGPU/html/index.html)
 
