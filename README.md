@@ -1,3 +1,5 @@
+# NOTE: we are now removing the dependency on GBGPU and transforming GB model to TDIFlyGB.
+
 # Triangle-GB
 Frequency-domain GB TDI-2.0 response, adapted from GBGPU (the GPU implementation of FastGB algorithm) to support the numerical orbit of Taiji and TDI-2.0. 
 The responses are consistent with the time-domain simulations of **Triangle-Simulator** (see Example 0). 
