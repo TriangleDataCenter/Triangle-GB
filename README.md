@@ -16,6 +16,12 @@ Please ensure ``Triangle-Simulator`` is available in your Python environment, wh
    pip install bilby nessai-bilby
    ```
 
+# What's in the examples 
+- Waveform modeling in both time and frequency domains; 
+- Rapid search of GB signals using $\mathcal{F}$-statistics and maximum likelihood estimation; 
+- Posterior inference of GB signals with nested sampling; 
+- Application on both **Taiji Data Challenge II** and **LISA Data Challenge**. 
+
 # References 
 - [The TDC II paper](https://arxiv.org/abs/2505.16500). 
 - [The fast GB response model for arbitray orbit and TDI (in preparation)](???)
