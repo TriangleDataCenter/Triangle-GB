@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Triangle_GB"
+version = "0.1.0"
+description = "Fast TDI response model for Galactic binaries (GBs) with arbitrary detector orbit and arbitrary TDI combination"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Triangle Data Center" }]
+keywords = [
+    "gravitational waves",
+    "space-based detectors",
+    "time-delay interferometry",
+    "Galactic binaries",
+    "LISA",
+    "Taiji",
+    "TianQin",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Operating System :: OS Independent",
+]
+urls = { "Homepage" = "https://github.com/TriangleDataCenter/Triangle-GB" }
+
+# NOTE
+# ----
+# ``Triangle`` (Triangle-Simulator) is NOT distributed on PyPI, so it cannot be
+# declared here as a dependency.  It must be installed FIRST, because
+# ``Triangle_GB.TDIFly`` uses
+#
+#     from Triangle.Constants import *
+#     from Triangle.Orbit import *
+#     from Triangle.TDI import *
+#
+# See the "Installation" section of README.md.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["Triangle_GB*"]
